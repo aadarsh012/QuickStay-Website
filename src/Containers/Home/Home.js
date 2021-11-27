@@ -2,6 +2,8 @@ import "./Home.css";
 import Navbar from "../../Components/Navigation/Navbar/Navbar";
 import Hero from "../../Components/HeroSection/Hero";
 import Section3 from "../../Components/ThirdSection/Section3";
+import Section5 from "../../Components/FifthSection/Section5";
+import Section6 from "../../Components/SixthSection/Section6";
 
 const Home = (props) => {
   return (
@@ -20,6 +22,8 @@ const Home = (props) => {
         </div>
       </div>
       <Section3 />
+      <Section5 />
+      <Section6 />
     </div>
   );
 };
