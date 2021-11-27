@@ -35,6 +35,12 @@ const Hero = (props) => {
           </button>
         </div>
       </div>
+      <div className={classes.ResidentList}>
+        <input type="text" placeholder="Do you own a residential property? List it here..." />
+        <button>
+          <i className="fas fa-chevron-right"></i>
+        </button>
+      </div>
     </div>
   );
 };

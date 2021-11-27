@@ -100,6 +100,37 @@
   box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
+.Hero .ResidentList {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translateX(-50%);
+}
+
+.Hero .ResidentList input {
+  width: 30em;
+  height: 2.7em;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-style: italic;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.Hero .ResidentList button {
+  position: absolute;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background-color: yellow;
+  transform: translate(-2.7em, 0.1em);
+}
+
 @media (min-width: 1500px) {
   .Hero .Image {
     height: 30em;
@@ -308,6 +339,9 @@
     width: 5em;
     height: 2.5em;
   }
+  .Hero .ResidentList input {
+    width: 22em;
+  }
 }
 @media (max-width: 500px) {
   .Hero .Image {
@@ -351,6 +385,18 @@
     font-size: 15px;
     width: 5em;
     height: 2.5em;
+  }
+  .Hero .ResidentList {
+    top: 87%;
+  }
+  .Hero .ResidentList input {
+    width: 23em;
+    font-size: 12px;
+  }
+  .Hero .ResidentList button {
+    width: 2.4em;
+    height: 2.4em;
+    font-size: 12px;
   }
 }
 @media (max-width: 400px) {
@@ -398,5 +444,19 @@
   .Search .ResBtn {
     display: block;
     width: 3em;
+    height: 2.5em;
+    font-size: 14px;
+  }
+  .Hero .ResidentList input {
+    width: 22em;
+    height: 2.5em;
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .Hero .ResidentList button {
+    width: 2.3em;
+    height: 2.3em;
+    transform: translate(-2.5em, 0.1em);
+    font-size: 10px;
   }
 }
