@@ -1,0 +1,65 @@
+.Navbar {
+  display: flex;
+  height: 4em;
+  width: 100%;
+  background-color: #ffffff;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar .Logo {
+  height: 3em;
+  width: 3em;
+  position: relative;
+  left: 4em;
+}
+
+.Navbar .Logo img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Navbar .NavigationItems {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  right: 3em;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Navbar .NavigationItems button {
+  position: relative;
+  height: 30px;
+  width: 5em;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #ca0404;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: bold;
+  transition: 0.3s;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.Navbar .NavigationItems button:hover {
+  background-color: antiquewhite;
+}
+
+@media (max-width: 700px) {
+  .Navbar {
+    justify-content: center;
+    align-items: center;
+  }
+  .Navbar .Logo {
+    left: 0;
+  }
+  .Navbar .NavigationItems {
+    display: none;
+  }
+}

@@ -1,0 +1,402 @@
+.Hero {
+  position: relative;
+}
+
+.Hero .Image {
+  position: relative;
+  height: 28em;
+  width: 100%;
+}
+
+.Hero .Image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Hero .Heading {
+  position: absolute;
+  top: 19%;
+  left: 9%;
+  text-align: end;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.Search_Section {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10em;
+  width: 70em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Search_Section > div:first-child {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2em;
+  box-sizing: border-box;
+  padding: 0 4em;
+}
+
+.Search_Section > div:first-child div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.Search_Section > div:first-child div span:nth-child(2) {
+  font-size: 18px;
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.Search div {
+  height: 2.5em;
+  width: 10em;
+  background-color: #d8d8d8;
+}
+.Search input {
+  font-style: italic;
+  height: 2.5em;
+  width: 42em;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.Search button {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  height: 2.5em;
+  width: 10em;
+  color: #ffffff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+  /* background-color: #bc1723; */
+  background-color: #ca0404;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+}
+
+.Search .ResBtn {
+  display: none;
+}
+
+.Search button:hover {
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1500px) {
+  .Hero .Image {
+    height: 30em;
+  }
+
+  .Hero .Heading {
+    left: 10%;
+  }
+
+  .Search_Section {
+    height: 12em;
+    width: 84em;
+  }
+
+  .Search_Section > div:first-child {
+    margin-top: 2em;
+    padding: 0 8em;
+  }
+  .Search {
+    margin-top: 2em;
+  }
+  .Search div {
+    width: 13em;
+    height: 3em;
+  }
+  .Search input {
+    width: 46em;
+    height: 3em;
+  }
+  .Search button {
+    width: 13em;
+    height: 3em;
+  }
+}
+@media (min-width: 1700px) {
+  .Hero .Image {
+    height: 32em;
+  }
+
+  .Hero .Heading {
+    left: 11%;
+  }
+  .Search_Section {
+    height: 13em;
+    width: 85em;
+  }
+
+  .Search_Section > div:first-child {
+    margin-top: 2em;
+    padding: 0 8em;
+  }
+  .Search {
+    margin-top: 2em;
+  }
+  .Search div {
+    width: 13em;
+    height: 3em;
+  }
+  .Search input {
+    width: 47em;
+    height: 3em;
+  }
+  .Search button {
+    width: 13em;
+    height: 3em;
+  }
+}
+@media (min-width: 1900px) {
+  .Hero .Image {
+    height: 34em;
+  }
+
+  .Hero .Heading {
+    left: 12%;
+  }
+
+  .Search_Section {
+    top: 57%;
+    height: 14em;
+    width: 90em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 2.5em;
+    padding: 0 8em;
+  }
+  .Search {
+    margin-top: 2.5em;
+  }
+  .Search div {
+    width: 15em;
+    height: 3em;
+  }
+  .Search input {
+    width: 50em;
+    height: 3em;
+  }
+  .Search button {
+    width: 14em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Hero .Image {
+    height: 27em;
+  }
+
+  .Hero .Heading {
+    left: 8%;
+  }
+
+  .Search_Section {
+    height: 10em;
+    width: 50em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 1.5em;
+    padding: 0 4em;
+  }
+  .Search {
+    margin-top: 1.5em;
+  }
+  .Search div {
+    width: 9em;
+    height: 2.5em;
+  }
+  .Search input {
+    width: 30em;
+    height: 2.5em;
+  }
+  .Search button {
+    width: 9em;
+    height: 2.5em;
+  }
+}
+@media (max-width: 800px) {
+  .Hero .Image {
+    height: 24em;
+  }
+  .Hero .Heading {
+    top: 15%;
+    left: 7%;
+  }
+
+  .Search_Section {
+    height: 10em;
+    width: 40em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 1em;
+    padding: 0 0;
+  }
+  .Search {
+    margin-top: 1em;
+  }
+  .Search div {
+    width: 8em;
+    height: 2.5em;
+  }
+  .Search input {
+    width: 20em;
+    height: 2.5em;
+  }
+  .Search button {
+    width: 8em;
+    height: 2.5em;
+  }
+}
+@media (max-width: 650px) {
+  .Hero .Image {
+    height: 22em;
+  }
+  .Hero .Heading {
+    font-size: 28px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Search_Section {
+    height: 10em;
+    width: 30em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 1.5em;
+    padding: 0 0;
+  }
+  .Search_Section > div:first-child div {
+    font-size: 18px;
+  }
+  .Search_Section > div:first-child div span:nth-child(2) {
+    font-size: 12px;
+  }
+  .Search {
+    margin-top: 1.5em;
+  }
+  .Search div {
+    width: 5em;
+    height: 2.5em;
+  }
+  .Search input {
+    width: 17em;
+    height: 2.5em;
+  }
+  .Search button {
+    width: 5em;
+    height: 2.5em;
+  }
+}
+@media (max-width: 500px) {
+  .Hero .Image {
+    height: 20em;
+  }
+  .Hero .Heading {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+
+  .Search_Section {
+    height: 10em;
+    width: 25em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 1.8em;
+    padding: 0 0;
+  }
+  .Search_Section > div:first-child div {
+    font-size: 16px;
+  }
+  .Search_Section > div:first-child div span:nth-child(2) {
+    font-size: 12px;
+  }
+  .Search {
+    margin-top: 1.8em;
+  }
+  .Search div {
+    font-size: 15px;
+    width: 5em;
+    height: 2.5em;
+  }
+  .Search input {
+    font-size: 15px;
+    width: 15em;
+    height: 2.5em;
+  }
+  .Search button {
+    font-size: 15px;
+    width: 5em;
+    height: 2.5em;
+  }
+}
+@media (max-width: 400px) {
+  .Hero .Image {
+    height: 18em;
+  }
+  .Hero .Heading {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  .Search_Section {
+    height: 9em;
+    width: 19em;
+  }
+  .Search_Section > div:first-child {
+    margin-top: 1.5em;
+    padding: 0 0;
+  }
+  .Search_Section > div:first-child div {
+    font-size: 15px;
+  }
+  .Search_Section > div:first-child div span:nth-child(2) {
+    font-size: 9px;
+  }
+  .Search {
+    margin-top: 1.5em;
+  }
+  .Search div {
+    font-size: 14px;
+    width: 5em;
+    height: 2.5em;
+  }
+  .Search input {
+    font-size: 14px;
+    width: 12em;
+    height: 2.5em;
+  }
+  .Search button {
+    display: none;
+  }
+
+  .Search .ResBtn {
+    display: block;
+    width: 3em;
+  }
+}

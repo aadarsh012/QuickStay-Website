@@ -1,0 +1,27 @@
+.NavigationItem a {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+.NavigationItem {
+  margin-right: 1.5em;
+  /* position: relative; */
+}
+
+.NavigationItem a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ca0404;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+
+.NavigationItem a:hover:before,
+.NavigationItem a.active:before {
+  width: 100%;
+}
