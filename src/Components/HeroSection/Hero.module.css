@@ -63,10 +63,24 @@
   margin-top: 1.5em;
 }
 .Search div {
+  position: relative;
   height: 2.5em;
   width: 10em;
   background-color: #d8d8d8;
+  font-size: 16px;
 }
+
+.Select {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #d8d8d8;
+  box-sizing: border-box;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
 .Search input {
   font-style: italic;
   height: 2.5em;
@@ -84,9 +98,10 @@
   height: 2.5em;
   width: 10em;
   color: #ffffff;
-  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+  /* box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3); */
   /* background-color: #bc1723; */
-  background-color: #ca0404;
+  /* background-color: #ca0404; */
+  background-color: #a01915;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   transition: 0.3s;
@@ -127,8 +142,9 @@
   outline: none;
   border: none;
   font-size: 15px;
-  background-color: yellow;
+  background-color: #f8de2c;
   transform: translate(-2.7em, 0.1em);
+  cursor: pointer;
 }
 
 @media (min-width: 1500px) {

@@ -1,6 +1,8 @@
 import classes from "./Hero.module.css";
 import { useState } from "react";
 const Hero = (props) => {
+  const [location, setLocation] = useState("Chandigarh");
+
   return (
     <div className={classes.Hero}>
       {/* Hero Image */}
@@ -27,7 +29,17 @@ const Hero = (props) => {
           </div>
         </div>
         <div className={classes.Search}>
-          <div></div>
+          <div className={classes.Dropbox}>
+            <select className={classes.Select} name="States">
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="New Delhi">New Delhi</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="West Bengal">West Bengal</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Assam">Assam</option>
+            </select>
+          </div>
           <input type="search" placeholder="Search Locality..." />
           <button>SEARCH</button>
           <button className={classes.ResBtn}>
