@@ -3,6 +3,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 15em;
   grid-column-gap: 7em;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .Section3 > div:not(:first-child) {
@@ -44,7 +46,7 @@
   background-color: yellow;
 }
 
-.Section3 div:not(:first-child) {
+.Section3 div {
   position: relative;
   margin: 0 20px;
 }
@@ -56,19 +58,26 @@
 }
 
 @media (min-width: 1500px) {
-  .Section3 {
-    grid-column-gap: 10em;
+  .Section3 div img {
+    height: 80%;
+    width: 50%;
   }
 }
 @media (min-width: 1700px) {
-  .Section3 {
-    grid-column-gap: 15em;
+  .Section3 div img {
+    height: 90%;
+    width: 50%;
   }
 }
 @media (min-width: 1900px) {
-  .Section3 {
-    grid-column-gap: 18em;
-    grid-auto-rows: 18em;
+  .Section3 div img {
+    height: 100%;
+    width: 50%;
+  }
+
+  .Section3 div:not(:first-child) span {
+    font-size: 21px;
+    bottom: 0;
   }
   .Section3 > div:nth-child(1) span {
     font-size: 25px;
@@ -119,6 +128,10 @@
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 13em;
   }
+  .Section3 div:not(:first-child) span {
+    font-size: 21px;
+    bottom: 0;
+  }
   .Section3 > div:not(:first-child) img {
     width: 30%;
   }
@@ -127,5 +140,11 @@
   }
   .Section3 > div:nth-child(1) p {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Section3 > div:not(:first-child) img {
+    width: 45%;
   }
 }
