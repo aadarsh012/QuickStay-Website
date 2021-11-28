@@ -1,0 +1,56 @@
+.Sidedrawer {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  max-width: 70%;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  background-color: #eff2f4;
+  transition: transform 0.3s ease-out;
+}
+
+.Sidedrawer button {
+  position: relative;
+  height: 30px;
+  width: 5em;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #a01915;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: bold;
+  transition: 0.3s;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  margin-left: 15px;
+}
+
+.Sidedrawer button:hover {
+  background-color: antiquewhite;
+}
+
+.Sidedrawer div {
+  margin: 20px 15px;
+  font-size: 22px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.Sidedrawer div:hover {
+  background-color: #fff;
+}
+
+@media (min-width: 701px) {
+  .Sidedrawer {
+    display: none;
+  }
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-100%);
+}

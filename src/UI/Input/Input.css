@@ -1,0 +1,139 @@
+.Input {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 24em;
+  height: 5em;
+}
+
+.Input span {
+  position: absolute;
+  font-size: 16px;
+  top: 32%;
+  left: 7px;
+  z-index: 5;
+  pointer-events: none;
+  /* color: #444444; */
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.Input input {
+  position: absolute;
+  background: transparent;
+  top: 25%;
+  font-size: 18px;
+  height: 40%;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-bottom: 1px solid #5a4f9b;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.Input div {
+  position: absolute;
+  left: 0;
+  top: 62%;
+  height: 3px;
+  width: 0%;
+  transition: 0.5s;
+  background-color: #f8de2c;
+  z-index: 5;
+}
+
+.Input p {
+  position: absolute;
+  top: 65%;
+  font-size: 14px;
+  left: 7px;
+  color: #d8210b;
+}
+
+.Input input::-webkit-inner-spin-button,
+.Input input::-webkit-inner-outer-button {
+  -webkit-appearance: none;
+}
+
+.Input input:focus ~ span {
+  top: 0;
+  left: 0;
+  color: #f8de2c;
+  font-size: 14px;
+}
+
+.focused ~ span {
+  top: 0;
+  left: 0;
+  color: #f8de2c;
+  font-size: 14px;
+}
+
+.Input input:focus ~ div {
+  width: 100%;
+}
+
+.focused ~ div {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .Input {
+    width: 19.5em;
+  }
+
+  .Input input {
+    font-size: 17px;
+  }
+
+  .Input span {
+    top: 32%;
+    font-size: 13px;
+  }
+
+  .Input input:focus ~ span {
+    top: 3px;
+    font-size: 12px;
+  }
+
+  .focused ~ span {
+    top: 3px;
+    left: 0;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .Input {
+    width: 30em;
+  }
+}
+
+@media (max-width: 400px) {
+  .Input {
+    width: 17.5em;
+  }
+
+  .Input input {
+    font-size: 16px;
+  }
+
+  .Input span {
+    top: 32%;
+    font-size: 13px;
+  }
+
+  .Input input:focus ~ span {
+    top: 5px;
+    font-size: 10px;
+  }
+
+  .focused ~ span {
+    top: 5px;
+    left: 0;
+    font-size: 10px;
+  }
+}
