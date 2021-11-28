@@ -24,8 +24,8 @@
 .Register button:hover {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
+
 .Register > div:last-child {
   position: absolute;
   bottom: -78px;
-  left: 126px;
 }

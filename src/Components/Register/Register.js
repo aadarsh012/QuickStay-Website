@@ -57,7 +57,7 @@ const Register = (props) => {
         }, 3000);
       } else {
         localStorage.setItem("token", result.user.uid);
-        await createUserDocument(result.user.uid, { phoneNo: phone });
+        await createUserDocument(result.user.uid, { phoneNo: result.user.phoneNo });
         setIsOtp(false);
         window.location.reload(false);
       }
@@ -96,7 +96,7 @@ const Register = (props) => {
             error={numberError}
           />
           <button onClick={(event) => loginHandler(event)}>Send OTP</button>
-          <div className="reCaptcha"></div>
+          <div id="reCaptcha"></div>
         </>
       )}
     </div>

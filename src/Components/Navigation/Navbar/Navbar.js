@@ -14,7 +14,7 @@ const Navbar = (props) => {
       setIsLogin(false);
       setModal(false);
     }
-  }, [modal, isLogin]);
+  }, []);
 
   const loginHandler = () => {
     setModal(true);
