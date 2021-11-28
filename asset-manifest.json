@@ -1,22 +1,35 @@
 {
   "files": {
-    "main.css": "/QuickStay-Website/static/css/main.f6a938c6.chunk.css",
-    "main.js": "/QuickStay-Website/static/js/main.e0807e1d.chunk.js",
-    "main.js.map": "/QuickStay-Website/static/js/main.e0807e1d.chunk.js.map",
-    "runtime-main.js": "/QuickStay-Website/static/js/runtime-main.73290d1d.js",
-    "runtime-main.js.map": "/QuickStay-Website/static/js/runtime-main.73290d1d.js.map",
-    "static/js/2.069a2ff4.chunk.js": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js",
-    "static/js/2.069a2ff4.chunk.js.map": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js.map",
-    "static/js/3.07f5beee.chunk.js": "/QuickStay-Website/static/js/3.07f5beee.chunk.js",
-    "static/js/3.07f5beee.chunk.js.map": "/QuickStay-Website/static/js/3.07f5beee.chunk.js.map",
+    "main.css": "/QuickStay-Website/static/css/main.86e65a63.chunk.css",
+    "main.js": "/QuickStay-Website/static/js/main.15702ca8.chunk.js",
+    "main.js.map": "/QuickStay-Website/static/js/main.15702ca8.chunk.js.map",
+    "runtime-main.js": "/QuickStay-Website/static/js/runtime-main.3a2685a0.js",
+    "runtime-main.js.map": "/QuickStay-Website/static/js/runtime-main.3a2685a0.js.map",
+    "static/js/2.156f66d4.chunk.js": "/QuickStay-Website/static/js/2.156f66d4.chunk.js",
+    "static/js/2.156f66d4.chunk.js.map": "/QuickStay-Website/static/js/2.156f66d4.chunk.js.map",
+    "static/js/3.573fd44f.chunk.js": "/QuickStay-Website/static/js/3.573fd44f.chunk.js",
+    "static/js/3.573fd44f.chunk.js.map": "/QuickStay-Website/static/js/3.573fd44f.chunk.js.map",
     "index.html": "/QuickStay-Website/index.html",
-    "static/css/main.f6a938c6.chunk.css.map": "/QuickStay-Website/static/css/main.f6a938c6.chunk.css.map",
-    "static/js/2.069a2ff4.chunk.js.LICENSE.txt": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js.LICENSE.txt"
+    "static/css/main.86e65a63.chunk.css.map": "/QuickStay-Website/static/css/main.86e65a63.chunk.css.map",
+    "static/js/2.156f66d4.chunk.js.LICENSE.txt": "/QuickStay-Website/static/js/2.156f66d4.chunk.js.LICENSE.txt",
+    "static/media/2.ce2aa695.png": "/QuickStay-Website/static/media/2.ce2aa695.png",
+    "static/media/3.2841b274.png": "/QuickStay-Website/static/media/3.2841b274.png",
+    "static/media/5.dbef4fd1.png": "/QuickStay-Website/static/media/5.dbef4fd1.png",
+    "static/media/Apartment.e937718c.png": "/QuickStay-Website/static/media/Apartment.e937718c.png",
+    "static/media/CustomerSupport.93734120.png": "/QuickStay-Website/static/media/CustomerSupport.93734120.png",
+    "static/media/GenuinePropertyDetails.61f3754c.png": "/QuickStay-Website/static/media/GenuinePropertyDetails.61f3754c.png",
+    "static/media/Hero_Image.ec5241c5.jpg": "/QuickStay-Website/static/media/Hero_Image.ec5241c5.jpg",
+    "static/media/IndependentRoom.d0bf6769.png": "/QuickStay-Website/static/media/IndependentRoom.d0bf6769.png",
+    "static/media/Logo.3478154c.png": "/QuickStay-Website/static/media/Logo.3478154c.png",
+    "static/media/PG.97a1aa2b.png": "/QuickStay-Website/static/media/PG.97a1aa2b.png",
+    "static/media/Refer&Earn1.f7e23c1d.png": "/QuickStay-Website/static/media/Refer&Earn1.f7e23c1d.png",
+    "static/media/Refer&Earn2.5c1365c8.png": "/QuickStay-Website/static/media/Refer&Earn2.5c1365c8.png",
+    "static/media/TimeSaving.a6d2f5c1.png": "/QuickStay-Website/static/media/TimeSaving.a6d2f5c1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73290d1d.js",
-    "static/js/2.069a2ff4.chunk.js",
-    "static/css/main.f6a938c6.chunk.css",
-    "static/js/main.e0807e1d.chunk.js"
+    "static/js/runtime-main.3a2685a0.js",
+    "static/js/2.156f66d4.chunk.js",
+    "static/css/main.86e65a63.chunk.css",
+    "static/js/main.15702ca8.chunk.js"
   ]
 }
