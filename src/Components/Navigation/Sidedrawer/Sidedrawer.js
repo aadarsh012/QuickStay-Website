@@ -19,7 +19,7 @@ const Sidedrawer = (props) => {
     setModal(true);
   };
 
-  if (props.open) {
+  if (props.open && !modal) {
     classArray = [classes.Sidedrawer, classes.Open];
   } else {
     classArray = [classes.Sidedrawer, classes.Close];
@@ -30,7 +30,7 @@ const Sidedrawer = (props) => {
       <Modal show={modal} clicked={() => setModal(false)}>
         <Register />
       </Modal>
-      <Backdrop show={props.open} click={props.clicked} />
+      <Backdrop show={!modal && props.open} click={props.clicked} />
       <div className={classArray.join(" ")}>
         <NavigationItem path="/QuickStay-Website">Home</NavigationItem>
         <NavigationItem path="/QuickStay-Website">About</NavigationItem>

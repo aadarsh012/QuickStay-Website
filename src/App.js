@@ -7,7 +7,7 @@ function App() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/QuickStay-Website");
-  });
+  }, []);
   return (
     <div className="App">
       <Routes>
