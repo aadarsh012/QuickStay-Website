@@ -96,9 +96,9 @@ const Register = (props) => {
             error={numberError}
           />
           <button onClick={(event) => loginHandler(event)}>Send OTP</button>
-          <div id="reCaptcha"></div>
         </>
       )}
+      <div id="reCaptcha"></div>
     </div>
   );
 };

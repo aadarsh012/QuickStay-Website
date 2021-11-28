@@ -59,7 +59,11 @@
   .Navbar .Logo {
     left: 0;
   }
-  .Navbar .NavigationItems {
+  .Navbar .NavigationItems div {
     display: none;
+  }
+  .Navbar .NavigationItems {
+    position: absolute;
+    right: 15px;
   }
 }
