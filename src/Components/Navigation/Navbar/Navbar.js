@@ -11,8 +11,9 @@ const Navbar = (props) => {
   useEffect(() => {
     if (localStorage.getItem("token")) {
       setIsLogin(false);
+      setModal(false);
     }
-  }, []);
+  }, [modal, isLogin]);
 
   const loginHandler = () => {
     setModal(true);
@@ -39,7 +40,18 @@ const Navbar = (props) => {
           <NavigationItem path="/blog">Blog</NavigationItem>
           <NavigationItem path="/contact">Contact Us</NavigationItem>
           {/* Login */}
-          {isLogin ? <button onClick={loginHandler}>Login</button> : <button>Logout</button>}
+          {isLogin ? (
+            <button onClick={loginHandler}>Login</button>
+          ) : (
+            <button
+              onClick={() => {
+                localStorage.removeItem("token");
+                window.location.reload(false);
+              }}
+            >
+              Logout
+            </button>
+          )}
         </div>
       </div>
     </>

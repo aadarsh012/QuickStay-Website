@@ -11,7 +11,7 @@ const Modal = (props) => {
     } else {
       setShowModal(false);
     }
-  }, [props.show]);
+  }, [props.show, showModal]);
 
   return (
     <>
