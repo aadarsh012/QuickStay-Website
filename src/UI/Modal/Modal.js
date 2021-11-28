@@ -1,4 +1,4 @@
-import classes from "./Modal.css";
+import "./Modal.css";
 import Backdrop from "../Backdrop/Backdrop";
 import { useEffect, useState } from "react";
 

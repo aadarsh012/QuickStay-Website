@@ -32,10 +32,10 @@ const Sidedrawer = (props) => {
       </Modal>
       <Backdrop show={props.open} click={props.clicked} />
       <div className={classArray.join(" ")}>
-        <NavigationItem path="/">Home</NavigationItem>
-        <NavigationItem path="/">About</NavigationItem>
-        <NavigationItem path="/">BLog</NavigationItem>
-        <NavigationItem path="/">Contact Us</NavigationItem>
+        <NavigationItem path="/QuickStay-Website">Home</NavigationItem>
+        <NavigationItem path="/QuickStay-Website">About</NavigationItem>
+        <NavigationItem path="/QuickStay-Website">BLog</NavigationItem>
+        <NavigationItem path="/QuickStay-Website">Contact Us</NavigationItem>
         {isLogin ? (
           <button onClick={loginHandler}>Login</button>
         ) : (

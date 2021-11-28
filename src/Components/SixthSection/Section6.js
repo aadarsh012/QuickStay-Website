@@ -1,4 +1,7 @@
 import classes from "./Section6.module.css";
+import gpd from "../../Images/GenuinePropertyDetails.png";
+import cs from "../../Images/CustomerSupport.png";
+import ts from "../../Images/TimeSaving.png";
 const Section6 = (props) => {
   return (
     <div className={classes.Section6}>
@@ -10,15 +13,15 @@ const Section6 = (props) => {
         </p>
       </div>
       <div>
-        <img src="/Assets/GenuinePropertyDetails.png" alt="propertyDetails" />
+        <img src={gpd} alt="propertyDetails" />
         <span>Genuine Property Details</span>
       </div>
       <div>
-        <img src="/Assets/CustomerSupport.png" alt="support" />
+        <img src={cs} alt="support" />
         <span>End to End Customer Support</span>
       </div>
       <div>
-        <img src="/Assets/TimeSaving.png" alt="timeSaving" />
+        <img src={ts} alt="timeSaving" />
         <span>Time Saving & Hassle-Free</span>
       </div>
     </div>

@@ -1,13 +1,11 @@
 import classes from "./Hero.module.css";
-import { useState } from "react";
+import heroImage from "../../Images/Hero_Image.jpg";
 const Hero = (props) => {
-  const [location, setLocation] = useState("Chandigarh");
-
   return (
     <div className={classes.Hero}>
       {/* Hero Image */}
       <div className={classes.Image}>
-        <img src="/Assets/Hero_Image.jpg" alt="Hero" />
+        <img src={heroImage} alt="Hero" />
       </div>
       <div className={classes.Heading}>
         <span>Want Easy Stay?</span>

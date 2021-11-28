@@ -3,6 +3,7 @@ import NavigationItem from "../NavigationItems/NavigationItem";
 import { useEffect, useState } from "react";
 import Modal from "../../../UI/Modal/Modal";
 import Register from "../../Register/Register";
+import logo from "../../../Images/Logo.png";
 
 const Navbar = (props) => {
   const [isLogin, setIsLogin] = useState(true);
@@ -28,17 +29,17 @@ const Navbar = (props) => {
       <div className={classes.Navbar}>
         {/* Logo */}
         <div className={classes.Logo}>
-          <a href="/">
-            <img src="/Assets/Logo.png" alt="Logo" />
+          <a href="/QuickStay-Website">
+            <img src={logo} alt="Logo" />
           </a>
         </div>
 
         {/* Links */}
         <div className={classes.NavigationItems}>
-          <NavigationItem path="/">Home</NavigationItem>
-          <NavigationItem path="/about">About</NavigationItem>
-          <NavigationItem path="/blog">Blog</NavigationItem>
-          <NavigationItem path="/contact">Contact Us</NavigationItem>
+          <NavigationItem path="/QuickStay-Website">Home</NavigationItem>
+          <NavigationItem path="/QuickStay-Website/about">About</NavigationItem>
+          <NavigationItem path="/QuickStay-Website/blog">Blog</NavigationItem>
+          <NavigationItem path="/QuickStay-Website/contact">Contact Us</NavigationItem>
           {/* Login */}
           {isLogin ? (
             <button onClick={loginHandler}>Login</button>

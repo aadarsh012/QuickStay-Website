@@ -2,6 +2,7 @@ import classes from "./Register.module.css";
 import Input from "../../UI/Input/Input";
 import { useState } from "react";
 import firebase from "../../firebase";
+import { createUserDocument } from "../../firebase";
 
 const Register = (props) => {
   const [phone, setPhone] = useState("+91");
@@ -18,7 +19,7 @@ const Register = (props) => {
     let reCaptcha = new firebase.auth.RecaptchaVerifier("reCaptcha");
     let number = phone;
     try {
-      if (phone.length != 13) {
+      if (phone.length !== 13) {
         setNumberError("Invalid Number.");
         setTimeout(() => {
           setNumberError("");
@@ -56,6 +57,7 @@ const Register = (props) => {
         }, 3000);
       } else {
         localStorage.setItem("token", result.user.uid);
+        await createUserDocument(result.user.uid, { phoneNo: phone });
         setIsOtp(false);
         window.location.reload(false);
       }

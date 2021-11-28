@@ -1,4 +1,5 @@
 import classes from "./Section5.module.css";
+import img from "../../Images/Hero_Image.jpg";
 const Section5 = (props) => {
   return (
     <>
@@ -12,7 +13,7 @@ const Section5 = (props) => {
         </div>
         <div className={classes.Cards}>
           <div className={classes.Image}>
-            <img src="/Assets/Hero_Image.jpg" alt="rooms" />
+            <img src={img} alt="rooms" />
           </div>
           <span className={classes.Name}>Private Room</span>
           <span className={classes.Location}>
@@ -25,7 +26,7 @@ const Section5 = (props) => {
         </div>
         <div className={classes.Cards}>
           <div className={classes.Image}>
-            <img src="/Assets/Hero_Image.jpg" alt="rooms" />
+            <img src={img} alt="rooms" />
           </div>
           <span className={classes.Name}>PG</span>
           <span className={classes.Location}>
@@ -38,7 +39,7 @@ const Section5 = (props) => {
         </div>
         <div className={classes.Cards}>
           <div className={classes.Image}>
-            <img src="/Assets/Hero_Image.jpg" alt="rooms" />
+            <img src={img} alt="rooms" />
           </div>
           <span className={classes.Name}>Single Room</span>
           <span className={classes.Location}>

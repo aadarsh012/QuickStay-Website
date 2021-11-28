@@ -1,4 +1,7 @@
 import classes from "./Section3.module.css";
+import pg from "../../Images/PG.png";
+import appartment from "../../Images/Apartment.png";
+import ir from "../../Images/IndependentRoom.png";
 const Section3 = (props) => {
   return (
     <div className={classes.Section3}>
@@ -10,15 +13,15 @@ const Section3 = (props) => {
         </p>
       </div>
       <div>
-        <img src="/Assets/PG.png" alt="pg" />
+        <img src={pg} alt="pg" />
         <span>Paying Guest(PG)</span>
       </div>
       <div>
-        <img src="/Assets/Apartment.png" alt="apartment" />
+        <img src={appartment} alt="apartment" />
         <span>Flat/Apartment</span>
       </div>
       <div>
-        <img src="/Assets/IndependentRoom.png" alt="independentroom" />
+        <img src={ir} alt="independentroom" />
         <span>Independent Room</span>
       </div>
     </div>

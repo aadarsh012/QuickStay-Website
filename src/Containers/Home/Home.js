@@ -7,7 +7,9 @@ import Section4 from "../../Components/FourthSection/Section4";
 import Section5 from "../../Components/FifthSection/Section5";
 import Section6 from "../../Components/SixthSection/Section6";
 import Sidedrawer from "../../Components/Navigation/Sidedrawer/Sidedrawer";
-import Modal from "../../UI/Modal/Modal";
+import benefit1 from "../../Images/2.png";
+import benefit2 from "../../Images/5.png";
+import benefit3 from "../../Images/3.png";
 
 const Home = (props) => {
   const [sideDrawer, setSideDrawer] = useState(false);
@@ -41,13 +43,13 @@ const Home = (props) => {
       <Hero />
       <div className="SecondSection">
         <div>
-          <img src="/Assets/2.png" alt="benefits" />
+          <img src={benefit1} alt="benefits" />
         </div>
         <div>
-          <img src="/Assets/5.png" alt="benefits" />
+          <img src={benefit2} alt="benefits" />
         </div>
         <div>
-          <img src="/Assets/3.png" alt="benefits" />
+          <img src={benefit3} alt="benefits" />
         </div>
       </div>
       <Section3 />
