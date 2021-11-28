@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/QuickStay-Website/static/css/main.f6a938c6.chunk.css",
+    "main.js": "/QuickStay-Website/static/js/main.e0807e1d.chunk.js",
+    "main.js.map": "/QuickStay-Website/static/js/main.e0807e1d.chunk.js.map",
+    "runtime-main.js": "/QuickStay-Website/static/js/runtime-main.73290d1d.js",
+    "runtime-main.js.map": "/QuickStay-Website/static/js/runtime-main.73290d1d.js.map",
+    "static/js/2.069a2ff4.chunk.js": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js",
+    "static/js/2.069a2ff4.chunk.js.map": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js.map",
+    "static/js/3.07f5beee.chunk.js": "/QuickStay-Website/static/js/3.07f5beee.chunk.js",
+    "static/js/3.07f5beee.chunk.js.map": "/QuickStay-Website/static/js/3.07f5beee.chunk.js.map",
+    "index.html": "/QuickStay-Website/index.html",
+    "static/css/main.f6a938c6.chunk.css.map": "/QuickStay-Website/static/css/main.f6a938c6.chunk.css.map",
+    "static/js/2.069a2ff4.chunk.js.LICENSE.txt": "/QuickStay-Website/static/js/2.069a2ff4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73290d1d.js",
+    "static/js/2.069a2ff4.chunk.js",
+    "static/css/main.f6a938c6.chunk.css",
+    "static/js/main.e0807e1d.chunk.js"
+  ]
+}
